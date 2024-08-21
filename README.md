@@ -24,7 +24,7 @@ npm install
 要启动服务，请运行以下命令：
 
 ```bash
-node app.js
+npm run dev
 ```
 
 启动后，服务将会在 `http://localhost:3000` 上运行。
