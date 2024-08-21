@@ -18,8 +18,5 @@ npm run start
 可以使用服务器搭建api接口然后内网访问，使用html核js对接接口做whois工具
 也可以使用vercel部署，做公共whois api接口。
 
-
-
-如
-
-
+# 更新日志
+- 1.0.0: 开发了初始版本，并开源
