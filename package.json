@@ -2,10 +2,11 @@
   "name": "whois",
   "version": "1.0.0",
   "description": "A Whois query API interface using Nodejs as backend",
-  "main": "app.js",
+  "main": "index.mjs",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node api/index.mjs",
+    "dev": "nodemon api/index.mjs"
   },
   "repository": {
     "type": "git",
@@ -17,14 +18,15 @@
     "express"
   ],
   "author": "MengZe2",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/MengZe2l/Whois/issues"
   },
   "homepage": "https://github.com/MengZe2l/Whois#readme",
   "dependencies": {
-    "express": "^4.19.2",
+    "jsdom": "^24.1.1",
     "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
     "whois": "^2.14.2"
   },
   "devDependencies": {
